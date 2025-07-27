@@ -10,7 +10,7 @@
   <div class="card">
     <div class="search">
       <input type="text" placeholder="Enter city name" spellcheck="false">
-      <button><img src="search.png"></button>
+      <button><img src="images/search.png"></button>
     </div>
     <div class="error">
       <p>invalid city name</p>
@@ -21,14 +21,14 @@
       <h2 class="city">Lusaka</h2>
       <div class="details">
         <div class="col">
-          <img src="humidity.png">
+          <img src="images/humidity.png">
           <div>
             <p class="humidity">50%</p>
             <p>humidity</p>
           </div>
         </div>
         <div class="col">
-          <img src="wind.png">
+          <img src="images/wind.png">
           <div>
             <p class="wind">10km/hr</p>
             <p>Wind speed</p>
@@ -62,13 +62,13 @@
     document.querySelector(".wind").innerHTML = data.wind.speed + " km/h";
     
     if (data.weather[0].main == "Clouds"){
-      weatherIcon.src="clouds.png";
+      weatherIcon.src="images/clouds.png";
     }
     else if (data.weather[0].main == "Clear"){
-      weatherIcon.src="clear.png";
+      weatherIcon.src="images/clear.png";
     }
     else if (data.weather[0].main =="Rain"){
-      weather.src="rain.png";;
+      weather.src="images/rain.png";;
     }
     else if (data.weather[0].main =="Drizzle"){
       weather.src="drizzle.png";
