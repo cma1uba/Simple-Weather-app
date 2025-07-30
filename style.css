@@ -13,7 +13,7 @@ body{
   background: linear-gradient(135deg, #00fbba, #5b5b5b);
   color: #fff;
   margin: 100px auto 0;
-  border-radius: 20px;
+  border-radius: 18px;
   padding: 40px 35px;
   text-align: center;
 }
@@ -30,7 +30,7 @@ body{
   color: #555;
   padding: 10px 15px;
   height: 40px;
-  border-radius: 20px;
+  border-radius: 18px;
   flex: 1;
   margin-right: 10px;
   font-size: 16px;
