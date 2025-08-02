@@ -5,15 +5,15 @@
   box-sizing: border-box;
 }
 body{
-  background: #222;
+  background: #fff;
 }
 .card{
   width: 90%;
   max-width: 460px;
-  background: linear-gradient(135deg, #00fbba, #5b5b5b);
+  background: linear-gradient(50deg, #222, #ccc);
   color: #fff;
   margin: 100px auto 0;
-  border-radius: 18px;
+  border-radius: 20px;
   padding: 40px 35px;
   text-align: center;
 }
@@ -30,7 +30,7 @@ body{
   color: #555;
   padding: 10px 15px;
   height: 40px;
-  border-radius: 18px;
+  border-radius: 20px;
   flex: 1;
   margin-right: 10px;
   font-size: 16px;
@@ -90,4 +90,4 @@ weather-icon{
   font-size: 12px;
   margin-top: 10px;
   display: none;
-}
+  }
